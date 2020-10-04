@@ -1,0 +1,23 @@
+{
+    "name": "base-react-app-with-node-api",
+    "version": "1.0.0",
+    "description": "Basic React Application tempalte with the UI in React and API in node.js.",
+    "private": "true",
+    "scripts": {
+        "setup": "concurrently \"cd ui && npm i\" && \"cd api npm i\"",
+        "start": "concurrently \"cd ui && npm start\" && \"cd api npm start\"",
+        "test": "concurrently \"cd ui && npm test\" && \"cd api npm test\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cooperhurt/base-react-app-with-node-api.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cooperhurt/base-react-app-with-node-api/issues"
+    },
+    "author": "Cooper Hurt",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^5.3.0"
+    }
+}
