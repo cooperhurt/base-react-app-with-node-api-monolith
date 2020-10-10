@@ -1,7 +1,7 @@
 {
     "name": "base_api",
     "version": "1.0.0",
-    "description": "This ias basic node.js api with express framework template.",
+    "description": "This is a basic node.js api with express framework template.",
     "main": "src/server.ts",
     "scripts": {
         "build": "tsc",
