@@ -4,11 +4,14 @@ This is a basic template to get you started on using a React application with a 
 
 ## Installation
 
-Once you have downloaded/forked the repositiory you should be able to do '''npm i''' in the root directory. This will install the package concurrently
+Once you have downloaded/forked the repository you should be able to do '''npm i''' in the root directory. This will install the package concurrently
 that allows you to run multiple commands at once. Once that is installed you should be now be able to run '''npm run setup''' this will cd into the
 api and ui directories and do '''npm i'''.
 
-Once that command is done you should be able to run '''npm start''' this will do a similary process but instead of '''npm i''' it will actually run '''npm start''', this will allow the UI to start up simultaneously.
+Once that command is done you should be able to run '''npm start''' this will do a similar process but instead of '''npm i''' it will actually run '''npm start''', this will allow the UI to start up simultaneously.
+
+## About 'Core'
+This is an internal package that you can link to if you choose to make a internal package within your team. Or alternatively you can make this a shared source code, just make sure to update your tsconfig file appropriately. 
 
 ## Contributing
 
