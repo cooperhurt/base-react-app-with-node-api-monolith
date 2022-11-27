@@ -1,10 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Routes } from "./Routes";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import { Home } from "views/Home/Home";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+]);
 
 ReactDOM.render(
-    <React.StrictMode>
-        <Routes />
-    </React.StrictMode>,
-    document.getElementById("root")
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
